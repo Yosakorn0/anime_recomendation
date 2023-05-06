@@ -85,7 +85,7 @@ elif s == "search":
 
     anime_finish['Name'] = anime_finish['Name'].astype('str')
     # Print the resulting dataframe
-    print(anime_finish)
+    print(anime_finish['Name'])
 
     file_names = anime_finish['Name']
     i = 1
